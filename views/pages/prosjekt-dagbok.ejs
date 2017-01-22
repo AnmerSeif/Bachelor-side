@@ -1,0 +1,33 @@
+<!-- views/pages/about.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ../partials/head %>
+</head>
+
+<body>
+
+    <header>
+        <% include ../partials/header %>
+    </header>
+
+    <main id="prosjekt-dagbok" class="container">
+        <% var posts = getPosts(0,5) %>
+            <% var page = 1 %>
+
+                <% posts.forEach(function(post){ %>
+                    <% include ../postSnippet.ejs %>
+                        <% }) %>
+
+                            <% include ../pagination.ejs %>
+    </main>
+
+    <footer>
+        <% include ../partials/footer %>
+    </footer>
+
+</body>
+
+</html>

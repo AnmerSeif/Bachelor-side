@@ -1,0 +1,32 @@
+<!-- views/pages/about.ejs -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <% include ./partials/head %>
+</head>
+
+<body>
+
+    <header>
+        <% include ./partials/header %>
+    </header>
+
+    <main id="om-oss" class="container">
+        <div class="post">
+            <div class="post-heading">
+                <div class="post-title">
+                    <h2><%= post.title %></h2>
+                </div>
+                <span class="date">
+                    <%= (post.date.getMonth() + 1) + '.' + post.date.getDate() + '.' + post.date.getFullYear() %>
+                  </span>
+            </div>
+
+            <div class="post content">
+                <%- post.content %>
+            </div>
+        </div>
+    </main>
+    <% include ./partials/footer.ejs %>

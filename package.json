@@ -1,0 +1,21 @@
+{
+  "name": "the-bachelor-engineers",
+  "version": "1.0.0",
+  "description": "Inneholder informasjon om bachelor oppgaven for gruppe 32",
+  "main": "server.js",
+  "scripts": {
+    "test": "snyk test",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "author": "Anmer Seif, Sara Khan og Adam Asskali",
+  "license": "ISC",
+  "dependencies": {
+    "ejs": "^2.5.5",
+    "express": "^4.6.1",
+    "helmet": "^3.4.0",
+    "poet": "^2.0.2",
+    "snyk": "^1.24.5"
+  },
+  "snyk": true
+}
