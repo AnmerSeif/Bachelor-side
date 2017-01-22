@@ -205,13 +205,13 @@ body {
   #dokumentasjon .felt-knapp {
     height: 100%;
     width: 100%; }
-    #dokumentasjon .felt-knapp button {
+    #dokumentasjon .felt-knapp a {
       height: 100%;
       width: 100%; }
-      #dokumentasjon .felt-knapp button i {
+      #dokumentasjon .felt-knapp a i {
         font-size: 2.4em; }
         @media only screen and (max-width: 768px) {
-          #dokumentasjon .felt-knapp button i {
+          #dokumentasjon .felt-knapp a i {
             font-size: 1em; } }
 
 #prosjekt-dagbok {
