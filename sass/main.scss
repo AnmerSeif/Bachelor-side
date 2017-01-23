@@ -52,7 +52,6 @@ body {
             font-weight: 700;
             font-size: 4em;
             vertical-align: bottom;
-            max-width: 60em;
         }
 
         #logo {
@@ -396,5 +395,22 @@ body {
                 border-color: #27ae60;
             }
         }
+    }
+}
+
+.post{
+    max-width: 60em;
+    margin:0 auto;
+
+    h2{
+        margin-bottom: 0;
+    }
+
+    .date{
+        color: #afafaf;
+    }
+
+    img{
+        margin: 1em 0;
     }
 }

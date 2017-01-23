@@ -34,8 +34,7 @@ body {
       display: inline-block;
       font-weight: 700;
       font-size: 4em;
-      vertical-align: bottom;
-      max-width: 60em; }
+      vertical-align: bottom; }
     .navbar-default .website-header #logo {
       display: inline-block;
       width: 5em;
@@ -246,5 +245,15 @@ body {
   #prosjekt-dagbok .pagination .active a {
     background-color: #2ecc71;
     border-color: #27ae60; }
+
+.post {
+  max-width: 60em;
+  margin: 0 auto; }
+  .post h2 {
+    margin-bottom: 0; }
+  .post .date {
+    color: #afafaf; }
+  .post img {
+    margin: 1em 0; }
 
 /*# sourceMappingURL=main.css.map */
