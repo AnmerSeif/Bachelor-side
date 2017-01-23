@@ -34,7 +34,8 @@ body {
       display: inline-block;
       font-weight: 700;
       font-size: 4em;
-      vertical-align: bottom; }
+      vertical-align: bottom;
+      max-width: 60em; }
     .navbar-default .website-header #logo {
       display: inline-block;
       width: 5em;
