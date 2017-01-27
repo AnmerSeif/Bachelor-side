@@ -13,4 +13,19 @@ $(function() {
         this_a.text('Les mer');
         this_a.append('<i class="material-icons" style="vertical-align:middle">&#xE315;</i>');
     })
+
+    var dato = $('.date');
+    var dato_string = dato.text();
+    console.log(dato_string);
+    dato.text(convertDate(dato_string));
 })
+
+function convertDate(dato_string) {
+    var monthNames = ["Januar", "Februar", "Mars", "April", "Mai", "Juni",
+        "Juli", "August", "September", "Oktober", "November", "Desember"
+    ];
+    var dato_array = dato_string.split('.');
+    var nyDato = parseInt(dato_array[1]) + "." + monthNames[parseInt(dato_array[0]) - 1] + "." + parseInt(dato_array[2].substring(0, 4));
+    console.dir(dato_array[2]);
+    return nyDato;
+}
