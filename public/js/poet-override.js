@@ -14,10 +14,11 @@ $(function() {
         this_a.append('<i class="material-icons" style="vertical-align:middle">&#xE315;</i>');
     })
 
-    var dato = $('.date');
-    var dato_string = dato.text();
-    console.log(dato_string);
-    dato.text(convertDate(dato_string));
+    $('.date').each(function(i) {
+        var dato = $(this);
+        var dato_string = dato.text();
+        dato.text(convertDate(dato_string));
+    })
 })
 
 function convertDate(dato_string) {
