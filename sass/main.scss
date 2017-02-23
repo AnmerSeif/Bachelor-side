@@ -351,6 +351,8 @@ body {
         border-bottom:1px solid #ddd;
         max-width: 55em;
         margin:0 auto;
+        padding-bottom:0em !important;
+
         .post-heading {
             .post-title {
                 text-align: center;
@@ -401,6 +403,7 @@ body {
 .post{
     max-width: 60em;
     margin:0 auto;
+    padding-bottom: 5em;
 
     h2{
         margin-bottom: 0;

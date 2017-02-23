@@ -219,7 +219,8 @@ body {
   #prosjekt-dagbok .post {
     border-bottom: 1px solid #ddd;
     max-width: 55em;
-    margin: 0 auto; }
+    margin: 0 auto;
+    padding-bottom: 0em !important; }
     #prosjekt-dagbok .post .post-heading .post-title {
       text-align: center; }
       #prosjekt-dagbok .post .post-heading .post-title h3 {
@@ -248,7 +249,8 @@ body {
 
 .post {
   max-width: 60em;
-  margin: 0 auto; }
+  margin: 0 auto;
+  padding-bottom: 5em; }
   .post h2 {
     margin-bottom: 0; }
   .post .date {
