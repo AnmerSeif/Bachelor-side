@@ -82,6 +82,7 @@ body {
             max-width: 90%;
             margin: 1em auto;
             border-color: black;
+            text-transform: uppercase;
 
             i {
                 vertical-align: middle;
@@ -109,6 +110,7 @@ body {
             .active {
                 a {
                     background-color: #27ae60;
+                    text-transform: uppercase;
 
                     .triangle-down {
                         width: 0;
