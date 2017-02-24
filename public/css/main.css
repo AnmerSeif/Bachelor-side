@@ -73,16 +73,17 @@ body {
       vertical-align: top; }
       .navbar-default #hoved-meny .navbar-nav .active a {
         background-color: #27ae60;
-        text-transform: uppercase; }
+        font-weight: 700; }
         .navbar-default #hoved-meny .navbar-nav .active a .triangle-down {
           width: 0;
           height: 0;
-          border-left: 20px solid transparent;
-          border-right: 20px solid transparent;
-          border-top: 20px solid #27ae60;
+          border-left: 10px solid transparent;
+          border-right: 10px solid transparent;
+          border-top: 10px solid #27ae60;
           position: absolute;
-          bottom: -20px;
-          left: 50%; }
+          bottom: -10px;
+          left: 50%;
+          margin-left: -10px; }
         @media (max-width: 768px) {
           .navbar-default #hoved-meny .navbar-nav .active a .triangle-down {
             display: none; } }
